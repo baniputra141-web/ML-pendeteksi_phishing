@@ -105,7 +105,7 @@ if st.button("🔍 Periksa URL", type="primary", use_container_width=True):
         st.divider()
 
         if prediction == 1:
-            st.error("# 🚨 PHISHING TERDETEKSI!")
+            st.error("# 🚨 PHISHING TERDETEKSI BROK WASPADA NIGGA!")
             st.markdown(f"""
             ### ⚠️ PERINGATAN!
             URL yang kamu masukkan **terindikasi kuat sebagai PHISHING**.
@@ -116,9 +116,9 @@ if st.button("🔍 Periksa URL", type="primary", use_container_width=True):
             perbankan di situs ini!
             """)
         else:
-            st.success("# ✅ URL TERLIHAT AMAN")
+            st.success("# ✅ URL TERLIHAT AMAN SANTAI DULU SLUR")
             st.markdown(f"""
-            ### 👍 Kemungkinan Aman
+            ### 👍🏿 Kemungkinan Aman
             URL yang kamu masukkan **terlihat aman** menurut model kami.
             
             **Tingkat Keyakinan Model:** `{probability[0] * 100:.2f}%`
