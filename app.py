@@ -20,7 +20,7 @@ st.set_page_config(
 # ============================================================
 @st.cache_resource
 def load_model():
-    data = joblib.load('model_phishing.joblib')
+    data = joblib.load('model_phishing_compressed.joblib')
     return data['model'], data['features'], data['model_name']
 
 
